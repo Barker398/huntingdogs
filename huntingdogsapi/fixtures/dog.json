@@ -1,0 +1,13 @@
+[
+    {
+        "model": "huntingdogsapi.dog",
+        "pk": 1,
+        "fields": {
+            "name": "Ben",
+            "image_url": "",
+            "breed": 1,
+            "kennel": 1,
+            "traits": 2
+        }
+    }
+]
