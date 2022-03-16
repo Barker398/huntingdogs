@@ -1,0 +1,9 @@
+[
+    {
+        "model": "huntingdogsapi.trait",
+        "pk": 1,
+        "fields": {
+            "description": ""
+        }
+    }
+]

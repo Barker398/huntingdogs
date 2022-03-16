@@ -1,0 +1,34 @@
+[
+    {
+        "model": "huntingdogsapi.breed",
+        "pk": 1,
+        "fields": {
+            "breed_type": "Labrador Retriever",
+            "hunting_type": "Waterfowl"
+        }
+    },
+    {
+        "model": "huntingdogsapi.breed",
+        "pk": 2,
+        "fields": {
+            "breed_type": "American Foxhound",
+            "hunting_type": "Deer"
+        }
+    },
+    {
+        "model": "huntingdogsapi.breed",
+        "pk": 3,
+        "fields": {
+            "breed_type": "Rhodesian Ridgeback",
+            "hunting_type": "Wild Hog"
+        }
+    },
+    {
+        "model": "huntingdogsapi.breed",
+        "pk": 4,
+        "fields": {
+            "breed_type": "English Springer Spaniel",
+            "hunting_type": "Upland Birds"
+        }
+    }
+]

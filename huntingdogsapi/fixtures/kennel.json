@@ -1,0 +1,30 @@
+[
+    {
+        "model": "huntingdogsapi.kennel",
+        "pk": 1,
+        "fields": {
+            "name": ""
+        }
+    },
+    {
+        "model": "huntingdogsapi.kennel",
+        "pk": 2,
+        "fields": {
+            "name": ""
+        }
+    },
+    {
+        "model": "huntingdogsapi.kennel",
+        "pk": 3,
+        "fields": {
+            "name": ""
+        }
+    },
+    {
+        "model": "huntingdogsapi.kennel",
+        "pk": 4,
+        "fields": {
+            "name": ""
+        }
+    }
+]
