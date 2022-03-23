@@ -14,7 +14,7 @@ class Dog(models.Model):
     )
     kennel = models.ForeignKey(
         Kennel,
-        related_name="dog",
+        related_name="dogs",
         on_delete=models.CASCADE
     )
     traits = models.ManyToManyField(Trait)

@@ -25,5 +25,6 @@ class KennelSerializer(serializers.ModelSerializer):
     """Serializer data for a Kennel"""
     class Meta:
         model = Kennel
-        fields = ('id', 'name', 'image_url')
+        fields = ('id', 'name', 'image_url', 'dogs')
+        depth = 2
         

@@ -4,10 +4,87 @@
         "pk": 1,
         "fields": {
             "name": "Ben",
-            "image_url": "",
+            "image_url": "https://www.k9web.com/wp-content/uploads/2020/12/black-labrador-retriever-sitting-on-the-grass.jpg",
             "breed": 1,
             "kennel": 1,
-            "traits": 2
+            "traits": [2]
+        }
+    },
+    {
+        "model": "huntingdogsapi.dog",
+        "pk": 2,
+        "fields": {
+            "name": "Dusty",
+            "image_url": "https://globaldogbreeds.com/uploads/gallery/1620882362_4983_American%20Foxhound%20Puppy.jpg",
+            "breed": 2,
+            "kennel": 3,
+            "traits": [1]
+        }
+    },
+    {
+        "model": "huntingdogsapi.dog",
+        "pk": 3,
+        "fields": {
+            "name": "Ruby",
+            "image_url": "https://www.pdsa.org.uk/media/8331/rhodesian-ridgeback-gallery-8-min.jpg?anchor=center&mode=crop&quality=100&height=500&bgcolor=fff&rnd=132212290390000000",
+            "breed": 3,
+            "kennel": 4,
+            "traits": [4]
+        }
+    },
+    {
+        "model": "huntingdogsapi.dog",
+        "pk": 4,
+        "fields": {
+            "name": "Gypsy",
+            "image_url": "https://www.dogbreedslist.info/uploads/dog-pictures/english-springer-spaniel-2.jpg",
+            "breed": 4,
+            "kennel": 2,
+            "traits": [3]
+        }
+    },
+    {
+        "model": "huntingdogsapi.dog",
+        "pk": 5,
+        "fields": {
+            "name": "Buck",
+            "image_url": "https://www.thatmutt.com/web/wp-content/uploads/2021/07/Rip.jpg",
+            "breed": 1,
+            "kennel":1 ,
+            "traits": [5]  
+        }
+    },
+    {
+        "model": "huntingdogsapi.dog",
+        "pk": 6,
+        "fields": {
+            "name": "Pepper",
+            "image_url": "https://i.pinimg.com/originals/8e/a7/89/8ea789c5eaab195984c426e49dbd64f4.jpg",
+            "breed": 3,
+            "kennel": 4,
+            "traits": [6]  
+        }
+    },
+    {
+        "model": "huntingdogsapi.dog",
+        "pk": 7,
+        "fields": {
+            "name": "Rip",
+            "image_url": "https://bowwowinsurance.com.au/wp-content/uploads/2021/02/shutterstock_1444833281-American-Foxhound-in-a-public-park-thumbnail-Bow-Wow-Meow-Pet-Insurance.jpg",
+            "breed": 2,
+            "kennel": 3,
+            "traits": [3] 
+        }
+    },
+    {
+        "model": "huntingdogsapi.dog",
+        "pk": 8,
+        "fields": {
+            "name": "Kate",
+            "image_url": "https://st2.depositphotos.com/1152939/6567/i/950/depositphotos_65672409-stock-photo-a-working-type-english-springer.jpg",
+            "breed": 4,
+            "kennel": 2,
+            "traits": [4] 
         }
     }
 ]

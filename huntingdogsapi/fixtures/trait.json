@@ -3,7 +3,42 @@
         "model": "huntingdogsapi.trait",
         "pk": 1,
         "fields": {
-            "description": ""
+            "description": "Has a sweet temperament, loyal, loving, and independent."
+        }
+    },
+    {
+        "model": "huntingdogsapi.trait",
+        "pk": 2,
+        "fields": {
+            "description": "Outgoing, gentle, very intelligent and listens well, loves being in the water."
+        }
+    },
+    {
+        "model": "huntingdogsapi.trait",
+        "pk": 3,
+        "fields": {
+            "description": "Cheerful, alert and attentive, very active and affectionate."
+        }
+    },
+    {
+        "model": "huntingdogsapi.trait",
+        "pk": 4,
+        "fields": {
+            "description": "Dignified, intelligent, loyal, and is strong willed."
+        }
+    }, 
+    {
+        "model": "huntingdogsapi.trait",
+        "pk": 5,
+        "fields": {
+            "description": "Outgoing, determined, gets along with other dogs well, has a strong desire to please."
+        }
+    },
+    {
+        "model": "huntingdogsapi.trait",
+        "pk": 6,
+        "fields": {
+            "description": "Enthusiastic, great with kids, smart, alert, and strong willed."
         }
     }
 ]
