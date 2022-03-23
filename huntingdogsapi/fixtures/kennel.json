@@ -3,28 +3,32 @@
         "model": "huntingdogsapi.kennel",
         "pk": 1,
         "fields": {
-            "name": ""
+            "name": "Lab Kennels",
+            "image_url": "https://i.pinimg.com/originals/15/72/b0/1572b07c5641d856aacf443c1b06dce3.jpg"
         }
     },
     {
         "model": "huntingdogsapi.kennel",
         "pk": 2,
         "fields": {
-            "name": ""
+            "name": "Spaniel Kennels",
+            "image_url": "https://i.pinimg.com/originals/4e/b6/12/4eb612ef5f1eed4bb0e1b51a9e57b0ed.jpg"
         }
     },
     {
         "model": "huntingdogsapi.kennel",
         "pk": 3,
         "fields": {
-            "name": ""
+            "name": "AFH Kennels",
+            "image_url": "https://www.barnraisersheds.com/wp-content/uploads/2017/12/12x50-Metal-Siding-Traditional-8-Box-Kennel.jpg"
         }
     },
     {
         "model": "huntingdogsapi.kennel",
         "pk": 4,
         "fields": {
-            "name": ""
+            "name": "Rhodesian Kennel Club",
+            "image_url": "https://thedogkennelcollection.b-cdn.net/wp-content/uploads/fly-images/3725/20x60-dog-kennel-1600x9999.jpg"
         }
     }
 ]

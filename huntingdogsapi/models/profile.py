@@ -1,6 +1,9 @@
 from django.contrib.auth.models import User
 from django.db import models
 
+from huntingdogsapi.models.dog import Dog
+
+
 class Profile(models.Model):
     """Profile model"""
     user = models.OneToOneField(
@@ -20,4 +23,5 @@ class Profile(models.Model):
         max_length=100,
         null=True
     )
+    favorites = models.ManyToManyField(Dog)
     

@@ -3,7 +3,7 @@
         "model": "huntingdogsapi.profile",
         "pk": 1,
         "fields": {
-            "user": "1",
+            "user": 1,
             "bio": "WaterFowl hunting addict!",
             "address": "253 BoatTrail Way Jackson,TN 67094",
             "phoneNumber": "223-365-2213",
