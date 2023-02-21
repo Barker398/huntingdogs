@@ -6,11 +6,12 @@ from rest_framework.permissions import AllowAny
 from rest_framework.response import Response
 from huntingdogsapi.models import Profile
 
+
 @api_view(['POST'])
 @permission_classes([AllowAny])
 def login_user(request):
     '''Handles the authentication of a user
-    
+
     Method arguments:
       request -- The full HTTP request object
     '''
@@ -31,8 +32,9 @@ def login_user(request):
         return Response(data)
     else:
         # Bad login details were provided. So we can't log the user in.
-        data = { 'valid': False }
+        data = {'valid': False}
         return Response(data)
+
 
 @api_view(['POST'])
 @permission_classes([AllowAny])
@@ -61,5 +63,5 @@ def register_user(request):
     # Use the REST Framework's token generator on the new user account
     token = Token.objects.create(user=profile.user)
     # Return the token to the client
-    data = { 'token': token.key }
+    data = {'token': token.key}
     return Response(data)
