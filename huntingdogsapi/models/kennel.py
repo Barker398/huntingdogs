@@ -1,5 +1,6 @@
 from django.db import models
 
+
 class Kennel(models.Model):
     """kennel model"""
     name = models.CharField(
@@ -10,4 +11,3 @@ class Kennel(models.Model):
         max_length=500,
         null=True
     )
-    
