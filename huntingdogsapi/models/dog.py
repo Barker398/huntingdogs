@@ -3,6 +3,7 @@ from .breed import Breed
 from .kennel import Kennel
 from .trait import Trait
 
+
 class Dog(models.Model):
     """Dog model"""
     name = models.CharField(max_length=30)
@@ -18,4 +19,3 @@ class Dog(models.Model):
         on_delete=models.CASCADE
     )
     traits = models.ManyToManyField(Trait)
-    

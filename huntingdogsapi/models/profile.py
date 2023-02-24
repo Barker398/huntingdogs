@@ -24,4 +24,3 @@ class Profile(models.Model):
         null=True
     )
     favorites = models.ManyToManyField(Dog)
-    
