@@ -26,7 +26,7 @@
         "fields": {
             "description": "Dignified, intelligent, loyal, and is strong willed."
         }
-    }, 
+    },
     {
         "model": "huntingdogsapi.trait",
         "pk": 5,
