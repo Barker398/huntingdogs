@@ -14,6 +14,7 @@ class Migration(migrations.Migration):
         migrations.AlterField(
             model_name='dog',
             name='kennel',
-            field=models.ForeignKey(on_delete=django.db.models.deletion.CASCADE, related_name='dogs', to='huntingdogsapi.kennel'),
+            field=models.ForeignKey(on_delete=django.db.models.deletion.CASCADE,
+                                    related_name='dogs', to='huntingdogsapi.kennel'),
         ),
     ]
