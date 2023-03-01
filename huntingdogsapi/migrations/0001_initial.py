@@ -17,7 +17,8 @@ class Migration(migrations.Migration):
         migrations.CreateModel(
             name='Breed',
             fields=[
-                ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),
+                ('id', models.BigAutoField(auto_created=True,
+                 primary_key=True, serialize=False, verbose_name='ID')),
                 ('breed_type', models.CharField(max_length=100, null=True)),
                 ('hunting_type', models.CharField(max_length=100, null=True)),
             ],
@@ -25,7 +26,8 @@ class Migration(migrations.Migration):
         migrations.CreateModel(
             name='Kennel',
             fields=[
-                ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),
+                ('id', models.BigAutoField(auto_created=True,
+                 primary_key=True, serialize=False, verbose_name='ID')),
                 ('name', models.CharField(max_length=50, null=True)),
                 ('image_url', models.CharField(max_length=500, null=True)),
             ],
@@ -33,29 +35,35 @@ class Migration(migrations.Migration):
         migrations.CreateModel(
             name='Trait',
             fields=[
-                ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),
+                ('id', models.BigAutoField(auto_created=True,
+                 primary_key=True, serialize=False, verbose_name='ID')),
                 ('description', models.CharField(max_length=200, null=True)),
             ],
         ),
         migrations.CreateModel(
             name='Profile',
             fields=[
-                ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),
+                ('id', models.BigAutoField(auto_created=True,
+                 primary_key=True, serialize=False, verbose_name='ID')),
                 ('bio', models.CharField(default='Bio not created yet', max_length=150)),
                 ('address', models.CharField(max_length=200, null=True)),
                 ('phoneNumber', models.CharField(max_length=200, null=True)),
                 ('email', models.CharField(max_length=100, null=True)),
-                ('user', models.OneToOneField(on_delete=django.db.models.deletion.CASCADE, to=settings.AUTH_USER_MODEL)),
+                ('user', models.OneToOneField(
+                    on_delete=django.db.models.deletion.CASCADE, to=settings.AUTH_USER_MODEL)),
             ],
         ),
         migrations.CreateModel(
             name='Dog',
             fields=[
-                ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),
+                ('id', models.BigAutoField(auto_created=True,
+                 primary_key=True, serialize=False, verbose_name='ID')),
                 ('name', models.CharField(max_length=30)),
                 ('image_url', models.CharField(max_length=500, null=True)),
-                ('breed', models.ForeignKey(on_delete=django.db.models.deletion.CASCADE, related_name='dog', to='huntingdogsapi.breed')),
-                ('kennel', models.ForeignKey(on_delete=django.db.models.deletion.CASCADE, related_name='dog', to='huntingdogsapi.kennel')),
+                ('breed', models.ForeignKey(on_delete=django.db.models.deletion.CASCADE,
+                 related_name='dog', to='huntingdogsapi.breed')),
+                ('kennel', models.ForeignKey(on_delete=django.db.models.deletion.CASCADE,
+                 related_name='dog', to='huntingdogsapi.kennel')),
                 ('traits', models.ManyToManyField(to='huntingdogsapi.trait')),
             ],
         ),
